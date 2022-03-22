@@ -22,11 +22,11 @@ public class DBService {
 	
 	public void instanciaBaseDeDados() {
 		
-		Categoria cat1 = new Categoria(null, "Jose", "Cliente");
+		Categoria cat1 = new Categoria(null, "Jose", "Supervisor");
 		
-		Categoria cat2 = new Categoria(null, "Maria", "Cliente");
+		Categoria cat2 = new Categoria(null, "Maria", "Supervisor");
 		
-		Categoria cat3 = new Categoria(null, "José", "Cliente");
+		Categoria cat3 = new Categoria(null, "José", "Supervisor");
 		
 		
 		Usuario l1 = new Usuario(null, "Clean code", "Robert Martin", "Lorem ipsum", cat1);
